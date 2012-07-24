@@ -1,3 +1,6 @@
+# bit and pieces from here and there
+# Borrowed from: gentoo, mortalscumbag 
+
 function ssh_connection() {
   if [[ -n $SSH_CONNECTION ]]; then
     echo "%{$fg_bold[red]%}(ssh) "
